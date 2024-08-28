@@ -1,0 +1,14 @@
+.pro-form {
+  display: grid;
+  grid-gap: 0 10px;
+  align-items: center;
+  .form-item-content-box {
+    display: "flex";
+    & > div {
+      width: 100%;
+    }
+  }
+  .el-form-item__content {
+    line-height: unset;
+  }
+}

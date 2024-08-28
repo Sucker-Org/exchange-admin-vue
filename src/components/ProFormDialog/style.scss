@@ -1,0 +1,19 @@
+.pro-form-dialog {
+  position: relative;
+  .el-dialog__title {
+    font-weight: 600;
+  }
+  .el-dialog__headerbtn {
+    height: 55px;
+  }
+  .el-dialog__body {
+    padding-bottom: 0;
+    overflow: hidden;
+  }
+  .el-dialog__footer:has(> .top-border) {
+    border-top: var(--footer-top-border);
+  }
+  .dialog-footer {
+    display: flex;
+  }
+}
